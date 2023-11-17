@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "240464508612",
+    "project_id": "edd-life",
+    "storage_bucket": "edd-life.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240464508612:android:b17325a807118d83f1fb91",
+        "android_client_info": {
+          "package_name": "com.example.edd_life"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240464508612-gmgtc5pnsoh4nkpprbkm4aue3hsime3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edd_life",
+            "certificate_hash": "ce99f3775db70c63f5e9046afa58e18a2776774b"
+          }
+        },
+        {
+          "client_id": "240464508612-5jr953tip3i6ojj1ehbd1lujk9ugqfq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMEbtkLIrmUOy0yUp-CIVTKLnWUpbyLGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240464508612-5jr953tip3i6ojj1ehbd1lujk9ugqfq8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "240464508612-qrskq74ao8ff32m1km92c8hp6qu0s063.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eddLife"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
