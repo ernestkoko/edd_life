@@ -14,13 +14,16 @@ class CustomAblyService {
 
     /// initialize client options for your Ably account using your private API.
 
-    final ably.ClientOptions clientOptions = ably.ClientOptions(
-        key: "KEY");
+    final ably.ClientOptions clientOptions = ably.ClientOptions(key: "KEY");
     final realtime = ably.Realtime(options: clientOptions);
 
     /// connect the app to Ably's Realtime services supported by this SDK
-    realtime.connect().then((value) => {
-
+    realtime
+        .connect()
+        .then((value) => {print("ABLY CONNECTION SUCCESSFUL")})
+        .catchError((e) {
+      print("ABLY CONNECTION ERROR ");
+      print(e);
     });
 
     return CustomAblyService._(realtime);
